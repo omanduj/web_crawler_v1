@@ -8,8 +8,7 @@ import scrapy
 
 class RedditcrawlerItem(scrapy.Item):
     # define the fields for your item here like:
-    # post_name = scrapy.Field()
-    # text = scrapy.Field()
-    # link = scrapy.Field()
-    # comments = scrapy.Field()
-    pass
+    post_name = scrapy.Field()
+    text = scrapy.Field()
+    link = scrapy.Field()
+    comments = scrapy.Field()
